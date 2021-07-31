@@ -3,8 +3,8 @@ Node.js base for creating a Discord bot.
 
 ### Setup
 > - Run `npm install` to download dependencies.
-> - Create a file called `.env` and add an environment variable for your Discord token using `TOKEN=YourTokenHere`
->   - Discord token can now be accessed by using `process.env.TOKEN`
+> - Create a file called `.env` and inside add: `TOKEN=YourTokenHere`. This will be your environment variable for your Discord token.
+>   - The Discord token can now be accessed as a variable by using `process.env.TOKEN`
 > - Set up a Discord bot application via Discord's website:
 >   - https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot
 > - Add the bot to your server:
